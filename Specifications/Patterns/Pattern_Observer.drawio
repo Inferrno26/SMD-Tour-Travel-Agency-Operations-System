@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Observer" id="observer">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title" value="Observer Pattern — Booking Status Change Notification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1F4E79;" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="1000" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Booking (Subject) -->
+        <mxCell id="booking" value="Booking" style="shape=swimlane;startSize=28;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;rounded=0;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="320" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="booking_a" value="- bookingReference: String&#xa;- status: BookingStatus&#xa;- observers: List&lt;BookingObserver&gt;" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;" vertex="1" parent="booking">
+          <mxGeometry y="28" width="320" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="booking_m" value="+ approve()&#xa;+ reject()&#xa;+ confirm()&#xa;+ cancel()&#xa;+ addObserver(o)&#xa;+ removeObserver(o)&#xa;+ notifyObservers()" style="text;strokeColor=#000000;fillColor=#F5F5F5;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;" vertex="1" parent="booking">
+          <mxGeometry y="92" width="320" height="128" as="geometry"/>
+        </mxCell>
+
+        <!-- BookingObserver Interface -->
+        <mxCell id="iface" value="«interface»&#xa;BookingObserver" style="shape=swimlane;startSize=44;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;rounded=0;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="430" width="280" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="iface_m" value="+ update(b: Booking)" style="text;strokeColor=#000000;fillColor=#F5F5F5;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;fontStyle=2;" vertex="1" parent="iface">
+          <mxGeometry y="44" width="280" height="56" as="geometry"/>
+        </mxCell>
+
+        <!-- Concrete Observers -->
+        <mxCell id="audit" value="AuditLog" style="shape=swimlane;startSize=28;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;rounded=0;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="240" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="audit_m" value="+ update(b)&#xa;+ logAction()" style="text;strokeColor=#000000;fillColor=#F5F5F5;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;" vertex="1" parent="audit">
+          <mxGeometry y="28" width="240" height="92" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="notif" value="Notification" style="shape=swimlane;startSize=28;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;rounded=0;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="580" y="680" width="240" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="notif_m" value="+ update(b)&#xa;+ send()" style="text;strokeColor=#000000;fillColor=#F5F5F5;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;" vertex="1" parent="notif">
+          <mxGeometry y="28" width="240" height="92" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="payment" value="PaymentRecord" style="shape=swimlane;startSize=28;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;rounded=0;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="680" width="240" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="payment_m" value="+ update(b)&#xa;+ updateStatus()" style="text;strokeColor=#000000;fillColor=#F5F5F5;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;" vertex="1" parent="payment">
+          <mxGeometry y="28" width="240" height="92" as="geometry"/>
+        </mxCell>
+
+        <!-- Relations -->
+        <mxCell id="r_b_i" style="endArrow=open;endFill=0;startArrow=diamondThin;startFill=0;startSize=14;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="booking" target="iface" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r_a" style="endArrow=block;endFill=0;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.2;entryY=1;entryDx=0;entryDy=0;" edge="1" source="audit" target="iface" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r_n" style="endArrow=block;endFill=0;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="notif" target="iface" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r_p" style="endArrow=block;endFill=0;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=1;entryDx=0;entryDy=0;" edge="1" source="payment" target="iface" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Template Method" id="template">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Title -->
+        <mxCell id="title" value="Template Method Pattern — Employee Shift Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1F4E79;" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="1000" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Employee (Abstract) -->
+        <mxCell id="employee" value="«abstract»&#xa;Employee" style="shape=swimlane;startSize=44;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;rounded=0;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="320" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="employee_attrs" value="- employeeId: int&#xa;- fullName: String&#xa;- role: EmployeeRole" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;" vertex="1" parent="employee">
+          <mxGeometry y="44" width="320" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="employee_methods" value="+ performDailyShift()&#xa;+ login()&#xa;+ logout()&#xa;+ logActivity()&#xa;+ loadDashboard()&#xa;+ performRoleTasks()" style="text;strokeColor=#000000;fillColor=#F5F5F5;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;fontStyle=0;" vertex="1" parent="employee">
+          <mxGeometry y="104" width="320" height="136" as="geometry"/>
+        </mxCell>
+
+        <!-- Subclasses -->
+        <mxCell id="agent" value="TravelAgent" style="shape=swimlane;startSize=28;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;rounded=0;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="540" width="220" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent_m" value="+ loadDashboard()&#xa;+ performRoleTasks()" style="text;strokeColor=#000000;fillColor=#F5F5F5;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;" vertex="1" parent="agent">
+          <mxGeometry y="28" width="220" height="92" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="finance" value="FinanceStaff" style="shape=swimlane;startSize=28;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;rounded=0;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="310" y="540" width="220" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="finance_m" value="+ loadDashboard()&#xa;+ performRoleTasks()" style="text;strokeColor=#000000;fillColor=#F5F5F5;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;" vertex="1" parent="finance">
+          <mxGeometry y="28" width="220" height="92" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="hr" value="HRStaff" style="shape=swimlane;startSize=28;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;rounded=0;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="540" width="220" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="hr_m" value="+ loadDashboard()&#xa;+ performRoleTasks()" style="text;strokeColor=#000000;fillColor=#F5F5F5;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;" vertex="1" parent="hr">
+          <mxGeometry y="28" width="220" height="92" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ops" value="OperationsStaff" style="shape=swimlane;startSize=28;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;rounded=0;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="810" y="540" width="220" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="ops_m" value="+ loadDashboard()&#xa;+ performRoleTasks()" style="text;strokeColor=#000000;fillColor=#F5F5F5;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;" vertex="1" parent="ops">
+          <mxGeometry y="28" width="220" height="92" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="mgr" value="ManagerOwner" style="shape=swimlane;startSize=28;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;collapsible=0;rounded=0;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="540" width="220" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="mgr_m" value="+ loadDashboard()&#xa;+ performRoleTasks()" style="text;strokeColor=#000000;fillColor=#F5F5F5;align=left;verticalAlign=top;fontSize=11;spacingLeft=8;spacingTop=4;" vertex="1" parent="mgr">
+          <mxGeometry y="28" width="220" height="92" as="geometry"/>
+        </mxCell>
+
+        <!-- Inheritance arrows -->
+        <mxCell id="r1" style="endArrow=block;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.1;entryY=1;entryDx=0;entryDy=0;" edge="1" source="agent" target="employee" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r2" style="endArrow=block;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.3;entryY=1;entryDx=0;entryDy=0;" edge="1" source="finance" target="employee" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r3" style="endArrow=block;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="hr" target="employee" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r4" style="endArrow=block;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;" edge="1" source="ops" target="employee" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="r5" style="endArrow=block;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.9;entryY=1;entryDx=0;entryDy=0;" edge="1" source="mgr" target="employee" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
