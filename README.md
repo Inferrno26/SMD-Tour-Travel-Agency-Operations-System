@@ -13,6 +13,3 @@ This repository contains the group project for our **Software Modeling and Desig
 - Isuf Çelhaka
 - Amanda Shirka
 - Dion Hasanbashaj (Team Leader)
-
-## Notes
-Project documentation and models will be added and updated weekly based on course deliverables.
