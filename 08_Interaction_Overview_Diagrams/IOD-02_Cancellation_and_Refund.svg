@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1000" viewBox="0 0 680 1000">
+  <rect x="0" y="0" width="680" height="1000" fill="white" />
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0,0 9,3.5 0,7" fill="#444444" />
+    </marker>
+    <marker id="ah_red" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0,0 9,3.5 0,7" fill="#C00000" />
+    </marker>
+  </defs>
+  <text x="340" y="32" font-family="Arial" font-size="13" font-weight="bold" fill="#1F4E79" text-anchor="middle">IOD-02  —  Cancellation &amp; Refund Flow</text>
+  <path d="M 340,78 L 340,121" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 340,189 L 340,231" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 340,299 L 340,341" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 340,409 L 340,430" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 285,465 L 140,465 L 140,531" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <text x="216" y="459" font-family="Arial" font-size="8.5" fill="#555555" font-style="italic">No refund</text>
+  <path d="M 395,465 L 540,465 L 540,531" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <text x="473" y="459" font-family="Arial" font-size="8.5" fill="#555555" font-style="italic">Refund</text>
+  <path d="M 140,599 L 140,672 L 312,672" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 540,599 L 540,672 L 368,672" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 340,690 L 340,728" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 340,796 L 340,848" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <circle cx="340" cy="65" r="13" fill="#1F4E79" stroke="none" />
+  <rect x="218" y="124" width="250" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="215" y="121" width="250" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="215,121 249,121 249,134 244,139 215,139" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="232" y="136" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="340" y="149" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-01</text>
+  <text x="340" y="163" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Log In</text>
+  <rect x="218" y="234" width="250" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="215" y="231" width="250" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="215,231 249,231 249,244 244,249 215,249" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="232" y="246" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="340" y="259" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-18</text>
+  <text x="340" y="273" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">View Booking Status</text>
+  <rect x="218" y="344" width="250" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="215" y="341" width="250" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="215,341 249,341 249,354 244,359 215,359" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="232" y="356" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="340" y="369" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-19</text>
+  <text x="340" y="383" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Submit &amp; Process</text>
+  <text x="340" y="396" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Cancellation</text>
+  <polygon points="340,430 395,465 340,500 285,465" fill="#FFFDE7" stroke="#1F4E79" stroke-width="1.8" />
+  <text x="340" y="463.0" font-family="Arial" font-size="8.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">Cancellation</text>
+  <text x="340" y="475.0" font-family="Arial" font-size="8.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">policy met?</text>
+  <rect x="82" y="545" width="116" height="38" fill="#FFF9E6" stroke="#BF8C00" stroke-width="1.2" rx="4" stroke-dasharray="4,2" />
+  <text x="140" y="561" font-family="Arial" font-size="8.5" fill="#666666" text-anchor="middle" font-style="italic">No refund</text>
+  <text x="140" y="575" font-family="Arial" font-size="8.5" fill="#666666" text-anchor="middle" font-style="italic">applicable</text>
+  <rect x="433" y="534" width="220" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="430" y="531" width="220" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="430,531 464,531 464,544 459,549 430,549" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="447" y="546" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="540" y="559" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-36</text>
+  <text x="540" y="573" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Record Refund &amp; Adjustment</text>
+  <polygon points="340,654 368,672 340,690 312,672" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.5" />
+  <rect x="218" y="731" width="250" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="215" y="728" width="250" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="215,728 249,728 249,741 244,746 215,746" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="232" y="743" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="340" y="756" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-20</text>
+  <text x="340" y="770" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Add Notes &amp; Booking History</text>
+  <circle cx="340" cy="862" r="14" fill="none" stroke="#1F4E79" stroke-width="2.2" />
+  <circle cx="340" cy="862" r="9" fill="#1F4E79" stroke="none" />
+</svg>

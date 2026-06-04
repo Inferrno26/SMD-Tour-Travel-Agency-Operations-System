@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3990" height="970" viewBox="0 0 3990 970">
+  <rect x="0" y="0" width="3990" height="970" fill="white" />
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0,0 9,3.5 0,7" fill="#444444" />
+    </marker>
+  </defs>
+  <rect x="40" y="22" width="3910" height="22" fill="#F0F0F0" stroke="#999" />
+  <text x="1995" y="37" font-family="Arial" font-size="12" font-weight="bold" fill="#222" text-anchor="middle">BPMN-03  —  Financial Settlement Process</text>
+  <rect x="40" y="70" width="3910" height="215" fill="#FFF6E0" stroke="#D4AC4F" stroke-width="1.3" />
+  <rect x="40" y="70" width="50" height="215" fill="#D4AC4F" stroke="#D4AC4F" />
+  <text x="65" y="177" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" transform="rotate(-90 65 177)">Finance Staff</text>
+  <rect x="40" y="285" width="3910" height="215" fill="#EAF2FA" stroke="#6BA3DC" stroke-width="1.3" />
+  <rect x="40" y="285" width="50" height="215" fill="#6BA3DC" stroke="#6BA3DC" />
+  <text x="65" y="392" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" transform="rotate(-90 65 392)">Customer</text>
+  <rect x="40" y="500" width="3910" height="215" fill="#F4E6F0" stroke="#B57AA0" stroke-width="1.3" />
+  <rect x="40" y="500" width="50" height="215" fill="#B57AA0" stroke="#B57AA0" />
+  <text x="65" y="607" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" transform="rotate(-90 65 607)">Manager / Owner</text>
+  <rect x="40" y="715" width="3910" height="215" fill="#EAF4EC" stroke="#6BAE7E" stroke-width="1.3" />
+  <rect x="40" y="715" width="50" height="215" fill="#6BAE7E" stroke="#6BAE7E" />
+  <text x="65" y="822" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" transform="rotate(-90 65 822)">System</text>
+  <path d="M 168,177 L 225,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 345,177 L 360,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 480,177 L 526,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 584,177 L 630,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <text x="607.0" y="173.0" font-family="Arial" font-size="8.5" fill="#333" text-anchor="middle" font-style="italic">Paid</text>
+  <path d="M 584,177 L 765,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <text x="674.5" y="173.0" font-family="Arial" font-size="8.5" fill="#333" text-anchor="middle" font-style="italic">Partial</text>
+  <path d="M 885,177 L 900,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 960,205 L 960,364" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 1020,392 L 1095,392 L 1095,794" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 584,177 L 1170,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <text x="877.0" y="173.0" font-family="Arial" font-size="8.5" fill="#333" text-anchor="middle" font-style="italic">Refunded</text>
+  <path d="M 1290,177 L 1305,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 1425,177 L 1500,177 L 1500,794" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 750,177 L 1575,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 1695,177 L 1710,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 1830,177 L 1876,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 1934,177 L 1980,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <text x="1957.0" y="173.0" font-family="Arial" font-size="8.5" fill="#333" text-anchor="middle" font-style="italic">Yes</text>
+  <path d="M 2100,177 L 2146,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 1934,177 L 2520,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <text x="2227.0" y="173.0" font-family="Arial" font-size="8.5" fill="#333" text-anchor="middle" font-style="italic">No</text>
+  <path d="M 2204,177 L 2250,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <text x="2227.0" y="173.0" font-family="Arial" font-size="8.5" fill="#333" text-anchor="middle" font-style="italic">Yes</text>
+  <path d="M 2370,177 L 2445,177 L 2445,579" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 2505,607 L 2580,607 L 2580,205" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 2204,177 L 2520,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <text x="2362.0" y="173.0" font-family="Arial" font-size="8.5" fill="#333" text-anchor="middle" font-style="italic">No</text>
+  <path d="M 2640,177 L 2655,177" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 2775,177 L 2850,177 L 2850,794" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 2910,822 L 2985,822 L 2985,635" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 3045,607 L 3060,607" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 3180,607 L 3226,607" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 3284,607 L 3390,607 L 3390,794" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <text x="3337.0" y="603.0" font-family="Arial" font-size="8.5" fill="#333" text-anchor="middle" font-style="italic">Yes</text>
+  <path d="M 3450,822 L 3600,822" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 3284,607 L 3465,607" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <text x="3374.5" y="603.0" font-family="Arial" font-size="8.5" fill="#333" text-anchor="middle" font-style="italic">No</text>
+  <path d="M 3585,607 L 3660,607 L 3660,794" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <path d="M 3720,822 L 3777,822" fill="none" stroke="#444444" stroke-width="1.3" marker-end="url(#ah)" />
+  <circle cx="150" cy="177" r="18" fill="#D4EDD4" stroke="#3C8C3C" stroke-width="2" />
+  <text x="150" y="179.45" font-family="Arial" font-size="7" fill="#1F4E1F" text-anchor="middle">Start</text>
+  <rect x="225" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="285" y="180.325" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Open payment record</text>
+  <rect x="360" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="420" y="174.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Record payment</text>
+  <text x="420" y="186.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">details</text>
+  <polygon points="555,148 584,177 555,206 526,177" fill="#FFFBEA" stroke="#C8A030" stroke-width="1.8" />
+  <line x1="542.82" y1="164.82" x2="567.18" y2="189.18" stroke="#C8A030" stroke-width="2.6" />
+  <line x1="567.18" y1="164.82" x2="542.82" y2="189.18" stroke="#C8A030" stroke-width="2.6" />
+  <text x="555" y="140" font-family="Arial" font-size="8.5" font-weight="bold" fill="#7A5C00" text-anchor="middle">Payment status?</text>
+  <rect x="630" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="690" y="174.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Verify payment</text>
+  <text x="690" y="186.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">complete</text>
+  <rect x="765" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="825" y="174.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Flag record for</text>
+  <text x="825" y="186.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">follow-up</text>
+  <rect x="900" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="960" y="174.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Set next instalment</text>
+  <text x="960" y="186.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">due date</text>
+  <rect x="900" y="364" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="960" y="389.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Make next instalment</text>
+  <text x="960" y="401.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">payment</text>
+  <rect x="1035" y="794" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="1095" y="819.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Send instalment</text>
+  <text x="1095" y="831.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">reminder</text>
+  <rect x="1170" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="1230" y="174.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Initiate refund</text>
+  <text x="1230" y="186.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">tracking</text>
+  <rect x="1305" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="1365" y="174.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Mark payment record</text>
+  <text x="1365" y="186.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">used</text>
+  <rect x="1440" y="794" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="1500" y="819.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Send refund /</text>
+  <text x="1500" y="831.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">receipt to customer</text>
+  <rect x="1575" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="1635" y="180.325" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Review payment log</text>
+  <rect x="1710" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="1770" y="174.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Run reconciliation</text>
+  <text x="1770" y="186.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">cycle</text>
+  <polygon points="1905,148 1934,177 1905,206 1876,177" fill="#FFFBEA" stroke="#C8A030" stroke-width="1.8" />
+  <line x1="1892.82" y1="164.82" x2="1917.18" y2="189.18" stroke="#C8A030" stroke-width="2.6" />
+  <line x1="1917.18" y1="164.82" x2="1892.82" y2="189.18" stroke="#C8A030" stroke-width="2.6" />
+  <text x="1905" y="140" font-family="Arial" font-size="8.5" font-weight="bold" fill="#7A5C00" text-anchor="middle">Discrepancy found?</text>
+  <rect x="1980" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="2040" y="174.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Correct discrepancy</text>
+  <text x="2040" y="186.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">in record</text>
+  <polygon points="2175,148 2204,177 2175,206 2146,177" fill="#FFFBEA" stroke="#C8A030" stroke-width="1.8" />
+  <line x1="2162.82" y1="164.82" x2="2187.18" y2="189.18" stroke="#C8A030" stroke-width="2.6" />
+  <line x1="2187.18" y1="164.82" x2="2162.82" y2="189.18" stroke="#C8A030" stroke-width="2.6" />
+  <text x="2175" y="140" font-family="Arial" font-size="8.5" font-weight="bold" fill="#7A5C00" text-anchor="middle">Escalation needed?</text>
+  <rect x="2250" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="2310" y="180.325" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Escalate to Manager</text>
+  <rect x="2385" y="579" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="2445" y="604.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Review escalated</text>
+  <text x="2445" y="616.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">discrepancy</text>
+  <rect x="2520" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="2580" y="174.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Archive reconciled</text>
+  <text x="2580" y="186.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">records</text>
+  <rect x="2655" y="149" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="2715" y="180.325" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Prepare report data</text>
+  <rect x="2790" y="794" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="2850" y="819.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Generate financial</text>
+  <text x="2850" y="831.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">report</text>
+  <rect x="2925" y="579" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="2985" y="604.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Review financial</text>
+  <text x="2985" y="616.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">report</text>
+  <rect x="3060" y="579" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="3120" y="610.325" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Approve report</text>
+  <polygon points="3255,578 3284,607 3255,636 3226,607" fill="#FFFBEA" stroke="#C8A030" stroke-width="1.8" />
+  <line x1="3242.82" y1="594.82" x2="3267.18" y2="619.18" stroke="#C8A030" stroke-width="2.6" />
+  <line x1="3267.18" y1="594.82" x2="3242.82" y2="619.18" stroke="#C8A030" stroke-width="2.6" />
+  <text x="3255" y="570" font-family="Arial" font-size="8.5" font-weight="bold" fill="#7A5C00" text-anchor="middle">Export required?</text>
+  <rect x="3330" y="794" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="3390" y="819.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Export report for</text>
+  <text x="3390" y="831.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">download</text>
+  <rect x="3465" y="579" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="3525" y="604.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Download &amp; review</text>
+  <text x="3525" y="616.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">dashboard KPIs</text>
+  <rect x="3600" y="794" width="120" height="56" fill="#FFFFFF" stroke="#5B7C99" stroke-width="1.5" rx="9" />
+  <text x="3660" y="819.575" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">Archive report &amp; log</text>
+  <text x="3660" y="831.075" font-family="Arial" font-size="9.5" fill="#222" text-anchor="middle">action</text>
+  <circle cx="3795" cy="822" r="18" fill="#F4D4D4" stroke="#B43C3C" stroke-width="3.5" />
+  <text x="3795" y="819.95" font-family="Arial" font-size="7" fill="#7A1F1F" text-anchor="middle">End</text>
+  <text x="3795" y="828.95" font-family="Arial" font-size="7" fill="#7A1F1F" text-anchor="middle">(settled)</text>
+</svg>

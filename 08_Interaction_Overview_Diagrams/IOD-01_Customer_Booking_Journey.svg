@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="1230" viewBox="0 0 740 1230">
+  <rect x="0" y="0" width="740" height="1230" fill="white" />
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0,0 9,3.5 0,7" fill="#444444" />
+    </marker>
+    <marker id="ah_red" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0,0 9,3.5 0,7" fill="#C00000" />
+    </marker>
+  </defs>
+  <text x="370" y="32" font-family="Arial" font-size="13" font-weight="bold" fill="#1F4E79" text-anchor="middle">IOD-01  —  Customer Booking Journey</text>
+  <path d="M 370,78 L 370,113" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 370,183 L 370,370" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <text x="376" y="271" font-family="Arial" font-size="8.5" fill="#555555" font-style="italic">Yes</text>
+  <path d="M 315,148 L 148,148 L 148,234" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <text x="237" y="142" font-family="Arial" font-size="8.5" fill="#555555" font-style="italic">No</text>
+  <path d="M 148,302 L 148,388 L 342,388" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 370,406 L 370,436" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 370,504 L 370,536" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 370,604 L 370,636" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 370,704 L 370,736" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 370,804 L 370,827" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 310,862 L 148,862 L 148,931" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <text x="233" y="856" font-family="Arial" font-size="8.5" fill="#555555" font-style="italic">Not Approved</text>
+  <path d="M 430,862 L 592,862 L 592,931" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <text x="516" y="856" font-family="Arial" font-size="8.5" fill="#555555" font-style="italic">Approved</text>
+  <path d="M 148,999 L 148,1047" fill="none" stroke="#C00000" stroke-width="1.4" marker-end="url(#ah_red)" />
+  <path d="M 592,999 L 592,1041" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <path d="M 592,1109 L 592,1151" fill="none" stroke="#444444" stroke-width="1.4" marker-end="url(#ah)" />
+  <circle cx="370" cy="65" r="13" fill="#1F4E79" stroke="none" />
+  <polygon points="370,113 425,148 370,183 315,148" fill="#FFFDE7" stroke="#1F4E79" stroke-width="1.8" />
+  <text x="370" y="146.0" font-family="Arial" font-size="8.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">Returning</text>
+  <text x="370" y="158.0" font-family="Arial" font-size="8.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">customer?</text>
+  <rect x="25" y="237" width="252" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="22" y="234" width="252" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="22,234 56,234 56,247 51,252 22,252" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="39" y="249" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="148" y="262" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-02</text>
+  <text x="148" y="276" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Register Customer Account</text>
+  <polygon points="370,370 398,388 370,406 342,388" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.5" />
+  <rect x="247" y="439" width="252" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="244" y="436" width="252" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="244,436 278,436 278,449 273,454 244,454" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="261" y="451" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="370" y="464" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-01</text>
+  <text x="370" y="478" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Log In</text>
+  <rect x="247" y="539" width="252" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="244" y="536" width="252" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="244,536 278,536 278,549 273,554 244,554" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="261" y="551" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="370" y="564" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-15</text>
+  <text x="370" y="578" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Submit Booking Request</text>
+  <rect x="247" y="639" width="252" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="244" y="636" width="252" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="244,636 278,636 278,649 273,654 244,654" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="261" y="651" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="370" y="664" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-22</text>
+  <text x="370" y="678" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Upload &amp; Verify Travel</text>
+  <text x="370" y="691" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Documents</text>
+  <rect x="247" y="739" width="252" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="244" y="736" width="252" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="244,736 278,736 278,749 273,754 244,754" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="261" y="751" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="370" y="764" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-16</text>
+  <text x="370" y="778" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Review &amp; Process Booking</text>
+  <polygon points="370,825 430,862 370,899 310,862" fill="#FFFDE7" stroke="#1F4E79" stroke-width="1.8" />
+  <text x="370" y="860.0" font-family="Arial" font-size="8.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">Booking</text>
+  <text x="370" y="872.0" font-family="Arial" font-size="8.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">approved?</text>
+  <rect x="31" y="934" width="240" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="28" y="931" width="240" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="28,931 62,931 62,944 57,949 28,949" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="45" y="946" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="148" y="959" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-18</text>
+  <text x="148" y="973" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">View Booking Status</text>
+  <circle cx="148" cy="1058" r="11" fill="none" stroke="#C00000" stroke-width="2" />
+  <line x1="141.18" y1="1051.18" x2="154.82" y2="1064.82" stroke="#C00000" stroke-width="2" />
+  <line x1="154.82" y1="1051.18" x2="141.18" y2="1064.82" stroke="#C00000" stroke-width="2" />
+  <text x="148" y="1080" font-family="Arial" font-size="8.5" fill="#666666" text-anchor="middle" font-style="italic">Booking</text>
+  <text x="148" y="1094" font-family="Arial" font-size="8.5" fill="#666666" text-anchor="middle" font-style="italic">rejected</text>
+  <rect x="475" y="934" width="240" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="472" y="931" width="240" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="472,931 506,931 506,944 501,949 472,949" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="489" y="946" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="592" y="959" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-17</text>
+  <text x="592" y="973" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Issue Digital Itinerary</text>
+  <rect x="475" y="1044" width="240" height="68" fill="#CCCCCC" rx="2" />
+  <rect x="472" y="1041" width="240" height="68" fill="#EEF5FB" stroke="#2E75B6" stroke-width="1.8" rx="2" />
+  <polygon points="472,1041 506,1041 506,1054 501,1059 472,1059" fill="#2E75B6" stroke="#2E75B6" />
+  <text x="489" y="1056" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ref</text>
+  <text x="592" y="1069" font-family="Arial" font-size="10.5" font-weight="bold" fill="#1F4E79" text-anchor="middle">SD-20</text>
+  <text x="592" y="1083" font-family="Arial" font-size="9" fill="#444444" text-anchor="middle">Add Notes &amp; Booking History</text>
+  <circle cx="592" cy="1165" r="14" fill="none" stroke="#1F4E79" stroke-width="2.2" />
+  <circle cx="592" cy="1165" r="9" fill="#1F4E79" stroke="none" />
+</svg>
